@@ -1,0 +1,11 @@
+---
+ host: all
+ become: yes
+ tasks:
+  - name: i want to ping 
+    ping:
+
+  - name: i want tp install apache2
+    apt:
+     name: apache2
+     state: present 
