@@ -10,5 +10,5 @@
 
 
 [mywebservers:vars]
-mywebpakageforubuntu= apache2222222222
+mywebpakageforubuntu= apache2
 mywebpakageforredhat= httpd
