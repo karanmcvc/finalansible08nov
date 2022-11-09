@@ -1,0 +1,24 @@
+--- 
+- hosts: all 
+  become: yes 
+  tasks:
+- name: Install the package apache2
+  apt:
+    name: apache2
+    state: present
+
+- name: start my service apache2
+  service:
+    name: apache2
+    state: started
+
+- name: install the pakage ansible nodes 
+  yum:
+    name: httpd
+    state: present 
+  when: ansibel_os_family== "RedHat" 
+
+- name: start my redhat nodes
+  service:
+    name: httpd
+    state: started
