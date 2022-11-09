@@ -2,6 +2,3 @@
 mywebpakageforubuntu: apache222222
 mywebpakageforredhat: httpd
 
-
-myjavapakageforubuntu: openjdk-8-jre
-myjavapakageforredhat: java-1.8.0-openjdk
