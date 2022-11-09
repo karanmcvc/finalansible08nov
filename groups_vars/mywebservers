@@ -1,3 +1,2 @@
----
- mywebpakageforubuntu: apache2
- mywebpakageforredhat: httpd
+mywebpakageforubuntu: apache2
+mywebpakageforredhat: httpd
