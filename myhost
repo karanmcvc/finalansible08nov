@@ -8,6 +8,3 @@
 
 
 
-[mywebserver: vars]
-mywebakageforubuntu= apache2
-mywebakageforubuntu= httpd
