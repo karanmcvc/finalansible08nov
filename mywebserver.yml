@@ -23,6 +23,6 @@
 
   - name: i want to start my webserver on RedHat ansbile nodes
     service:
-      name: "{{mywebakageforredhat}}"
-      state: started
+       name: "{{mywebakageforredhat}}"
+       state: started
     when: ansible_os_family =="RedHat"
