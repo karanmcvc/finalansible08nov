@@ -13,6 +13,7 @@
     apt:
      name: wget
      stateeeee: present 
+    ignore_errors: yes 
     
      
   - name: i want install tree
