@@ -4,9 +4,9 @@
   tasks: 
   - name: i want install git
     apt:
-     name: gittt
-     state: present 
-    ignore_erroes: yes
+     name: git
+     stateeeee: present 
+    
     
 
   - name: i want install wget
