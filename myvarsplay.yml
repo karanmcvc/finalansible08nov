@@ -8,6 +8,6 @@
 
 
   - name: i want display the name 
-  debug:
-    msg: "{{myresult}}"
+    debug:
+      msg: "{{myresult}}"
     
