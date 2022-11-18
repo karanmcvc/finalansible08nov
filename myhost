@@ -9,7 +9,7 @@
 
 
 [mywebservers:vars]
-mywebpakageforubuntu= apache22222222222
+mywebpakageforubuntu= apache2
 mywebpakageforredhat= httpd
 
 
