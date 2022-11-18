@@ -5,14 +5,14 @@
   - name: i want install git
     apt:
      name: git
-     stateeeee: present 
+     state: present 
     
     
 
   - name: i want install wget
     apt:
      name: wget
-     state: present 
+     stateeeee: present 
     
      
   - name: i want install tree
